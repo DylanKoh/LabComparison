@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace LabComparison
 {
+    /// <summary>
+    /// JT> What is the purpose of this class?
+    /// </summary>
     class Json
     {
         public class Rootobject

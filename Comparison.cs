@@ -16,6 +16,11 @@ using System.Web.Script.Serialization;
 namespace LabComparison
 {
     //Initial Commit
+    /// <summary>
+    /// JT>
+    /// - button1_Click not used, remove
+    /// - item.date_of_birth.ToShortDateString is culture specific, use tostring("dd/MM/yyyy") instead
+    /// </summary>
     public partial class Comparison : Form
     {
         string _jsonData, _results;
