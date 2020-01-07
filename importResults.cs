@@ -65,7 +65,7 @@ namespace LabComparison
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            (new Comparison(_jsonData, _filePath)).ShowDialog();
+            (new Comparison(_filePath, _jsonData)).ShowDialog();
             this.Close();
         }
     }
