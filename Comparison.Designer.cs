@@ -89,6 +89,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "Complete Validation";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Comparison
             // 
@@ -100,6 +101,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Comparison";
             this.Text = "Comparison";
+            this.Load += new System.EventHandler(this.Comparison_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
